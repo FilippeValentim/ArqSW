@@ -1,0 +1,323 @@
+@CHARSET "UTF-8";
+/*
+ * style.css
+ */
+body {
+  padding-top: 50px;
+ 
+}
+
+@CHARSET "UTF-8";
+/*
+ * style.css
+ */
+body {
+  padding-top: 50px;
+}
+
+label{
+	font-size: 22px;
+}
+
+/*
+ * MENU
+ */
+ 
+nav#menu{
+	background-color: #0066ff;
+	border-radius: 30px;
+	color: black;
+
+}
+
+li{
+	color: black;
+}
+
+/*
+ * Login....
+ */
+ input#username, input#passwd {
+	border-radius: 1px 1px 50px; 
+	
+}
+input#mouse{
+	width: 100px;
+	height: 150px;
+}
+img#imL{
+	width: 250px;
+	height: 250px;
+}
+
+ div#log{
+	 background-color: #0066ff;
+	border-radius: 30px 50px;
+ }
+div#login{
+	background-color: #0066ff;
+}
+
+span#lo{
+	color: white;
+}
+
+ /*
+ * NOVO....
+ */
+ 
+ a#novo{
+	background-color:  #0066ff; 
+	border-radius: 30px 50px;
+ }
+ 
+ h2#textoP{
+	font-family: "Georgia"; 
+	background-color:  #0066ff; 
+	color: white;
+	border-radius: 30px 50px;
+
+ }
+
+/*
+ * INPUT CRIAR....
+ */
+ button#enviar{
+	border-radius: 15px 50px 30px 10px;
+	background-color: #0066ff;
+}
+
+input#nome, input#cnpj, input#razaoSocial, input#endereco ,input#telefone, input#email, input#dataAtivade{
+	border-radius: 30px;
+	border-color: #0066ff;
+}
+input#search{
+	border-radius: 55px 10px 10px 10px;
+	border-color: #0066ff;
+}
+
+input#nome:hover, input#cnpj:hover, input#razaoSocial:hover, input#endereco:hover ,input#telefone:hover, input#email:hover, input#dataAtivade:hover, input#search:hover{
+	background-color: #66c2ff;
+}
+
+input#cpf, input#dataNascimento {
+	border-radius: 30px;
+	border-color: #0066ff;
+}
+
+input#cpf:hover, input#dataNascimento:hover{
+	background-color: #66c2ff;
+}
+
+
+
+label#texto{
+	color: #0066ff;
+}
+
+
+
+/*
+ * VOLUNTARIO
+ */
+
+h3#criar{
+	font-family: "Vagabond";
+	font-size: 40px;
+	background-color: #0066ff;
+	border-radius: 30px;
+	color: white;
+	text-align: center;
+
+}
+
+span#icone{
+	color: #0066ff;
+}
+
+span#iconeOs{
+	color: #00ff00;
+}
+
+div#semana{
+	background-color: #0066ff;
+	color: white;
+}
+
+div#checkEstilo{
+	background-color: #83f4fe;	
+	color: black;
+}
+
+input{
+	border-radius: 35px;
+	
+}
+
+p#edtNome{
+	color: red;
+	text-align: center;
+	font-size: 40px;
+}
+
+
+
+h1#rota{
+	font-family: "Vagabond";
+	font-size: 50px;
+	border-radius: 30px;
+	color: #0066ff;
+}
+
+h2#iOs{
+	font-family: "Vagabond";
+	font-size: 30px;
+	color: #0066ff;
+}
+
+div#cor{
+	background-color: #0066ff;
+	color: white;
+	border-radius: 10px;
+}
+
+div#cor:hover{
+	background-color: #3399ff;
+
+}
+
+
+p#pIndex{
+	text-align: justify;
+	font-family: Vagabond;
+}
+
+h2#hIndex{
+	color: #0066ff;
+	font-size: 40px;
+}
+
+/*
+ * DISPONIBILIDADE
+ */
+
+label#semana{
+	background-color: #0066ff;
+	color: white;
+	border-radius: 15px;
+}
+
+label#semana2{
+    background-color: #66c2ff;
+	color: white;
+	border-radius: 15px;	
+}
+p#nome{
+	font-family: "Vagabond";
+	font-size: 35px;
+	background-color: #0066ff;
+	border-radius: 15px;
+	color: white;
+	text-align: center;
+}
+h3#visu{
+	font-family: "Vagabond";
+	text-align: center;
+	color: #0066ff;
+}
+
+p#paraVisu{
+	font-family: "Arial";
+	font-size: 17px;
+	text-align: center;
+}
+
+
+h2#visu{
+	font-family: "Vagabond";
+	text-align: center;
+	font-size: 24px;
+	background-color: #0066ff;
+	color: white;
+	border-radius: 30px;
+}
+
+.footer {
+	background: #0066ff;
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #DDDDDD;
+}
+
+.footer h3 {
+	border-bottom: 1px solid #BAC1C8;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 40px 0 10px;
+	text-transform: uppercase;
+}
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: #F5F5F5;
+}
+.footer ul li a {
+	padding: 0 0 5px 0;
+	display: block;
+}
+.footer a {
+	color: #F5F5F5
+}
+.supportLi h4 {
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: normal;
+	margin-bottom: 0 !important;
+	padding-bottom: 0;
+}
+
+.bg-gray {
+	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+	box-shadow: 0 1px 0 #B4B3B3;
+}
+
+.footer-bottom {
+	background: #E3E3E3;
+	border-top: 1px solid #DDDDDD;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+}
+
+img#face
+{
+
+	width: 50px;
+	height: 50px;
+	float: right;
+
+}
+
+img#twitter
+{
+
+	width: 50px;
+	height: 50px;
+	float: right;
+
+}
+
+
+
+
+
